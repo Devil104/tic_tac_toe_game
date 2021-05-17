@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeshBoard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #bfff00;
+
+            position: fixed;
+            top: 30%;
+            left: 35%;
+            margin-top: -50px;
+            margin-left: -100px;
+    </style>
+</head>
+
+<body>
+    <div class="container" align="center">
+        <h1>Welcome To Come Back, @{{user.username}} </h1></br>
+
+
+        <button type="button" class="btn btn-outline-danger">
+            <a href="{% url 'game' %}" >Ready For Play Game!</a>
+        </button>
+    </div>
+
+</body>
+</html>
